@@ -38,9 +38,9 @@ app.use("/api/users",userRoute);
 app.use("/api/posts",postRoute);
 app.use("/api/categories",categoryRoute);
 
-app.use(express.static(path.join(__dirname, "/client")));
+/*app.use(express.static(path.join(__dirname, "/client")));
 
-/*app.get('*', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });*/
 
